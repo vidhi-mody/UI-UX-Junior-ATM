@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Enter withdraw amount</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	 <link href='https://fonts.googleapis.com/css?family=Electrolize' rel='stylesheet'>
+	<style type="text/css">
+		*{
+			font-family: 'Electrolize';
+		}
+		body{
+            background-image: url("background2.jpeg");
+            background-repeat: no-repeat;
+            width:100%;
+        }
+		.container{
+			width: 100%;
+			height: 600px;
+			border: solid 1px white;
+		}
+
+		.rows {
+  margin: 0 auto;
+  width: 280px;
+  clear: both;
+  text-align: center;
+  font-family: 'Exo';
+}
+
+.digit,
+.dig {
+  float: left;
+  padding: 10px 30px;
+  width: 70px;
+  font-size: 4rem;
+  cursor: pointer;
+}
+
+.sub {
+  font-size: 0.8rem;
+  color: grey;
+}
+
+.containers {
+  padding-left: 60px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.digit:active,
+.dig:active {
+  background-color: #e6e6e6;
+}
+
+#call:hover {
+  background-color: #81c784;
+}
+
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<br>
+				<h1 style="text-align: center;">You want to take out cash.<br>
+				Select the amount</h1>
+				<br>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-3">							
+				<center><img src="robo1.png" height="400px" style="float: right;"></center>
+			</div>
+			<div class="col-md-6">
+				<br>
+				<center><input type="text" style="width: 155px; height: 50px;"></center>
+				<div class="containers">
+				  <div class="rows">
+				    <div class="digit" id="one">1</div>
+				    <div class="digit" id="two">2
+				    </div>
+				    <div class="digit" id="three">3
+				    </div>
+				  </div>
+				  <div class="rows">
+				    <div class="digit" id="four">4
+				    </div>
+				    <div class="digit" id="five">5
+				    </div>
+				    <div class="digit">6
+				    </div>
+				  </div>
+				  <div class="rows">
+				    <div class="digit">7
+				    </div>
+				    <div class="digit">8
+				    </div>
+				    <div class="digit">9
+				    </div>
+				  </div>
+				  <div class="rows">
+				    <div class="digit">*
+				    </div>
+				    <div class="digit">0
+				    </div>
+				    <div class="digit">#
+				    </div>
+				  </div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div style="text-align: center;">
+					
+					<div class="btn btn-success btn-lg" style="height: 70px; width: 100px;">Rs. 100</div><br><br><br>
+					<div class="btn btn-primary btn-lg" style="height: 70px; width: 100px;">Rs. 150</div><br><br><br>
+					<div class="btn btn-warning btn-lg" style="height: 70px; width: 100px;">Rs. 300</div><br><br><br>
+					<div class="btn btn-danger btn-lg" style="height: 70px; width: 100px;">Rs. 500</div><br><br><br>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+
+		<footer><br>
+		<div class="row">
+			<div class="col-md-3">
+				<center><a class="btn btn-success btn-lg" href="menu.html" style="height: 70px;">Go Back</a></center>
+			</div>
+			<div class="col-md-3">
+				<center><a class="btn btn-danger btn-lg" href="menu.html" style="height: 70px;">Start over</a></center>
+			</div>
+			<div class="col-md-3">
+				<center><a class="btn btn-warning btn-lg" href="instructions.html" style="height: 70px;">I need help</a></center>
+			</div>
+			<div class="col-md-3">
+				<center><a class="btn btn-primary btn-lg" href="succtrn.html" style="height: 70px;">Okay</a></center>
+			</div>
+		</div>
+		<br>
+	</footer>
+</body>
+</html>
